@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    padding: 60px 0;
+}
+.headtop {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.top-button{
+    border-radius: 28px;
+    padding: 10px 59px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: white;
+    color:  hsl(322, 100%, 66%);
+}
+.headcontent {
+    text-align: center;
+}
+.headcontentright {
+    padding: 70px 0px;
+}
+h1 {
+    color: hsl(192, 100%, 9%);
+    font-size: 40px;
+}
+.head-para {
+    width: 35%;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: hsl(192, 100%, 9%);
+}
+.headcontent-button {
+    border-radius: 50px;
+    padding: 20px 90px;
+    border: 1px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.mockup {
+    text-align: center;
+}
+.likes {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.likes-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ img {
+    width: 31%;
+}
+.container img{
+    width: 95%;
+}
+.likes-content img{
+    width: 25%;
+}
+.likes-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.span-li {
+    font-size: 60px;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+.section-container-1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+}
+.text {
+    padding: 0 80px;
+    width: 38%;
+}
+h2 {
+    padding: 20px 0;
+    color: hsl(192, 100%, 9%);
+}
+p {
+    line-height: 25px;
+    color: hsl(192, 100%, 9%);
+}
+.top-curve-1{
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.bg-colour {
+    background-color: hsl(207, 100%, 98%);
+}
+.top-curve-2{
+    background-image: url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.section-container-2{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 30rem;
+}
+.text-center{
+    padding: 0 80px;
+    width: 38%;
+}
+.bottom-curve-1{
+    background-image: url(images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.bottom-curve-2{
+    background-image: url(images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.section-container-3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+}
+.content-center {
+    padding: 140px 0;
+}
+.footer-top {
+    padding: 190px 0 200px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-top-button {
+    padding: 20px 140px;
+    border-radius: 35px;
+    border: 1px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    box-shadow: 0 2px 2px hsl(208, 11%, 55%);
+}
+h3{
+    padding: 0 0 50px;
+    font-size: 40px;
+}
+.footer-curve{
+    background-image: url(images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.footer-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    padding: 150px 0;
+    gap: 400px;
+}
+.footer-content-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+input[type="submit"] {
+    border-radius: 7px;
+    padding: 6px 30px;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: white;
+    margin: 0 19px;
+    background-color: hsl(322, 100%, 66%);
+}
+input[type="text"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px;
+}
+.footer-content-right p {
+    width: 70%;
+    padding: 31px 0;
+    color: white;
+}
+span {
+    padding: 0 15px;
+}
+.bg-colour-2{
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-content-2 {
+    padding: 50px 0;
+}
+i{
+    width: 32px;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.top-button:hover,.headcontent-button:hover,.footer-top-button:hover,input[type="submit"]:hover,input[type="text"]:hover{
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: blue;
+}
+
+
+
